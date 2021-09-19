@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <link rel="stylesheet" href="css/mobile_style.css">
+        <script src="scripts/send_message.js"></script>
+        <script src="scripts/send_answer.js"></script>
+    </head>
+    <body>
+        <div class="dialog">
+            <div id="empty-dialog" class="empty-dialog">Тут тихо. Вы можете написать боту сообщение</div>
+        </div>
+        <br>
+        <br>
+        <div class="bottom-space">-------</div>
+        <div class="header">
+            <div style="font-weight: bold; text-align: center">Argentum - бот, созданный на основе VK-бота "ferrum" и ПК-бота "Q-bot"</div>
+            <br>
+            <br>
+            <a style="font-weight: bold">Умения на данный момент:</a>
+            <ol style="padding-top: 0px">
+                <li>Общение (развивается)</li>
+                <li>Математические вычисления (дорабатывается)</li>
+            </ol>
+            <br>
+            <a style="font-weight: bold">Будущие умения:</a>
+            <ol style="padding-top: 0px">
+                <li>Поиск в интернете (wikipedia)</li>
+                <li>Улучшение общения (добавление смайлов и Gif)</li>
+                <li>Дата, время и погода (в вашем регионе)</li>
+            </ol>
+            <br>
+            <a style="font-weight: bold">Разработчики:</a>
+            <ol style="padding-top: 0px">
+                <li style="font-family: cursive">FarmobusDevelop</li>
+            </ol>
+            <div style="text-align: center; font-size: 24px;">Ag Bot Mobile</div>
+        </div>
+        <div class="info-error-block">
+            <div style="font-weight: bold; text-align: center">Информация об ошибках бота</div>
+            <div class="info-error-button">🛈 Errors</div>
+            <br>
+            <br>
+            <a style="font-weight: bold">Список возможных ошибок:</a>
+            <ol style="padding-top: 0px">
+                <li>Unknown Question (Не предусмотренное сообщение)</li>
+            </ol>
+        </div>
+        <button class="link-button" onclick="window.location.href='index.html'">computer</button>
+        <div class="message-box">
+            <input id="input_message" class="input-message" value="message...">
+            <button id="button_message" class="button-message" onclick="send();">send</button>
+        </div>
+    </body>
+</html>
