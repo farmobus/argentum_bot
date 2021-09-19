@@ -16,7 +16,7 @@ body{
     width: 100%;
     padding: 10px;
     position: fixed;
-    top: -620px;
+    top: -650px;
     left: 0px;
     font-size: var(--info-font-size);
     transition: 1s;
