@@ -1,0 +1,229 @@
+:root {
+    --info-font-size: 28px;
+    --message-font-size: 26px; 
+    --mess-box-font-size: 34px;
+}
+
+body{
+    background: #002;
+    font-family: monospace;
+}
+
+.header{
+    background: #0af;
+    color: #fff;
+    border: 1px #fff solid;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: -650px;
+    left: 0px;
+    font-size: var(--info-font-size);
+    transition: 1s;
+}
+
+.header:hover{
+    background: #0af;
+    color: #fff;
+    border: 1px #fff solid;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: var(--info-font-size);
+    transition: 1s;
+}
+
+
+.message-box{
+    background: #0af;
+    border: 1px #fff solid;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.input-message{
+    background: #fff;
+    color: #000;
+    border: 1px #0af solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 85%;
+    font-size: var(--mess-box-font-size);
+}
+
+.button-message{
+    background: #0af;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 10%;
+    font-size: var(--mess-box-font-size);
+    transition: 0.5s;
+}
+
+.button-message:hover{
+    background: #fff;
+    color: #0af;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 10%;
+    font-size: var(--mess-box-font-size);
+    transition: 0.5s;
+}
+
+.button-message:active{
+    background: #ac0;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 10%;
+    font-size: var(--mess-box-font-size);
+    transition: 0.1s;
+}
+
+.dialog{
+    position: relative;
+    top: 75px;
+    width: 100%;
+}
+
+.new_message{
+    background: #0af8;
+    color: #fff;
+    font-size: var(--message-font-size);
+    padding: 10px;
+    border: 1px #005 solid;
+    border-radius: 0px;
+    transition: 1s;
+    width: auto;
+    max-width: 100%;
+}
+
+.new_message:hover{
+    background: #0df;
+    color: #000;
+    font-size: var(--message-font-size);
+    padding: 10px;
+    border: 1px #005 solid;
+    border-radius: 5px;
+    transition: 0.2s;
+    width: auto;
+    max-width: 100%;
+}
+
+.new_answer{
+    background: #0af5;
+    color: #fff;
+    font-size: var(--message-font-size);
+    padding: 10px;
+    border: 1px #005 solid;
+    border-radius: 0px;
+    transition: 1s;
+    width: auto;
+    max-width: 100%;
+}
+
+.new_answer:hover{
+    background: #0af;
+    color: #000;
+    font-size: var(--message-font-size);
+    padding: 10px;
+    border: 1px #005 solid;
+    border-radius: 5px;
+    transition: 0.2s;
+    width: auto;
+    max-width: 100%;
+}
+
+.info-error-block{
+    background: #0af;
+    color: #fff;
+    font-size: var(--info-font-size);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    position: fixed;
+    right: -82%;
+    top: 150px;
+    transition: 1s;
+}
+
+.info-error-block:hover{
+    background: #0af;
+    color: #fff;
+    font-size: var(--info-font-size);;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    position: fixed;
+    right: 0%;
+    top: 150px;
+    transition: 1s;
+}
+
+.info-error-button{
+    background: #0af;
+    color: #fff;
+    font-size: var(--info-font-size);
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    float: left;
+    position: relative;
+    padding: 7px;
+    left: -105px;
+    top: 2px;
+    transform: rotate(-90deg);
+}
+
+.bottom-space{
+    color: #002;
+    padding: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.empty-dialog{
+    color: #0af;
+    font-size: var(--message-font-size);
+    font-weight: bold;
+    text-align: center;
+}
+
+.link-button{
+    background: #0af;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    width: auto;
+    font-size: var(--info-font-size);
+    transition: 0.5s;
+    position: fixed;
+    left: 0px;
+    bottom: 70px;
+}
+
+.link-button:hover{
+    background: #fff;
+    color: #0af;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    width: auto;
+    font-size: var(--info-font-size);
+    transition: 0.5s;
+    position: fixed;
+    left: 0px;
+    bottom: 70px;
+}
