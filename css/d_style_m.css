@@ -103,7 +103,7 @@ body{
     color: #fff;
     font-size: var(--message-font-size);
     padding: 10px;
-    border: none;
+    border: 1px var(--color1) solid;
     transition: 1s;
     width: auto;
     max-width: 150%;
@@ -114,7 +114,7 @@ body{
     color: #000;
     font-size: var(--message-font-size);
     padding: 10px;
-    border: none;
+    border: 1px var(--color1) solid;
     transition: 0.2s;
     width: auto;
     max-width: 150%;
@@ -125,7 +125,7 @@ body{
     color: #fff;
     font-size: var(--message-font-size);
     padding: 10px;
-    border: none;
+    border: 1px var(--color1) solid;
     transition: 1s;
     width: auto;
     max-width: 150%;
@@ -136,7 +136,7 @@ body{
     color: #000;
     font-size: var(--message-font-size);
     padding: 10px;
-    border: none;
+    border: 1px var(--color1) solid;
     transition: 0.2s;
     width: auto;
     max-width: 150%;
