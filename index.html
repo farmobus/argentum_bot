@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <link id="link_on_style" rel="stylesheet" href="css/l_style.css">
+        <script src="scripts/send_message.js"></script>
+        <script src="scripts/send_answer.js"></script>
+    </head>
+    <body>
+        <div style="position: fixed; left: 0px; bottom: -500px;" id="saver"></div>
+        <div class="dialog">
+            <div id="empty-dialog" class="empty-dialog">Тут тихо. Вы можете написать боту сообщение. Для помощи - "!help"</div>
+        </div>
+        <br>
+        <br>
+        <div class="bottom-space">-------</div>
+        <div class="header">
+            <div style="font-weight: bold; text-align: center">Atri Bot (v0.0.1)"</div>
+            <br>
+            <br>
+            <a style="font-weight: bold">Умения на данный момент:</a>
+            <ol style="padding-top: 0px">
+                <li>Общение (развивается)</li>
+                <li>Дополнительные команды</li>
+                <li>Математические вычисления (дорабатывается)</li>
+            </ol>
+            <br>
+            <a style="font-weight: bold">Будущие умения:</a>
+            <ol style="padding-top: 0px">
+                <li>Поиск в интернете (wikipedia)</li>
+                <li>Погода (в вашем регионе)</li>
+            </ol>
+            <br>
+            <a style="font-weight: bold">Разработчики:</a>
+            <ol style="padding-top: 0px">
+                <li style="font-family: cursive">Farmobus</li>
+            </ol>
+            <div style="text-align: center; font-size: 24px;">Atri Bot</div>
+        </div>
+        <div class="message-box">
+            <input id="input_message" class="input-message">
+            <button id="button_message" class="button-message" onclick="send();">send</button>
+        </div>
+    </body>
+</html>
